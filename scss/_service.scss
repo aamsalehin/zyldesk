@@ -1,0 +1,37 @@
+@use 'variables' as *;
+.service-wrapper {
+  text-align: center;
+  padding: 20px 20px 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 50px 0px rgba($blueColor, 0.08);
+  position: relative;
+  margin-bottom: 3rem;
+}
+.service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+  background-color: $blueColor;
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.service-heading {
+  margin-bottom: 1rem;
+}
+.service-button {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0px 2px 70px 0px rgba($blueColor, 0.18);
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

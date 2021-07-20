@@ -1,0 +1,23 @@
+@use 'variables' as *;
+.custom-nav {
+  background-color: $lightBgColor;
+  height: 10vh !important;
+}
+
+.navbar.container {
+  padding: 0;
+}
+.nav-link {
+  color: $headingColor !important;
+  &:hover {
+    color: $yellowColor !important;
+  }
+}
+.bg-light {
+  background-color: $lightBgColor !important;
+}
+.navbar-toggler,
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: 0;
+}

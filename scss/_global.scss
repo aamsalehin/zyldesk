@@ -1,0 +1,34 @@
+@use 'variables' as *;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+// custon buttons css
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headingColor;
+}
+p {
+  color: #767676;
+}
+
+.section-heading {
+  padding: 5rem 0rem;
+  text-align: center;
+  .section-small-heading {
+    color: $blueColor;
+    line-height: 0;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+  }
+  .section-main-heading {
+    color: $headingColor;
+  }
+}
