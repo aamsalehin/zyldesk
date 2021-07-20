@@ -117,10 +117,12 @@ p {
   border-radius: 20px;
   overflow: hidden;
   transition: all 0.5s ease;
+  margin: 2rem 0rem;
 }
 @media (max-width: 991px) {
   #home .home-button {
     margin: auto;
+    margin: 2rem auto;
   }
 }
 #home .home-button:hover {
@@ -149,7 +151,15 @@ p {
   align-items: center;
 }
 #home .home-image img {
-  width: 70%;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  #home .home-image {
+    padding: 2rem 0rem;
+  }
+  #home .home-image img {
+    width: 100%;
+  }
 }
 
 .service-wrapper {
@@ -190,6 +200,11 @@ p {
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: rgba(35, 18, 11, 0.5);
+  text-transform: lowercase;
+}
+.service-button:hover {
+  color: #fdb827;
 }
 
 /*# sourceMappingURL=style.css.map */
