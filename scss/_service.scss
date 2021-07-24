@@ -36,6 +36,8 @@
   transform: translate(-50%, -50%);
   color: $buttonColor;
   text-transform: lowercase;
+  display: block;
+  width: 150px;
   &:hover {
     color: $yellowColor;
   }
