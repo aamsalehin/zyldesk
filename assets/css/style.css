@@ -5,6 +5,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #21209c;
+}
+
 h1,
 h2,
 h3,
@@ -185,6 +190,15 @@ p {
   position: relative;
   margin-bottom: 3rem;
 }
+.service-wrapper:hover .service-icon {
+  background-color: #fdb827;
+}
+.service-wrapper:hover .service-heading {
+  color: #fdb827;
+}
+.service-wrapper:hover .service-button {
+  color: #fdb827;
+}
 
 .service-icon {
   display: flex;
@@ -198,10 +212,13 @@ p {
   color: #fff;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  transition: all 0.5s ease;
 }
 
 .service-heading {
   margin-bottom: 1rem;
+  transition: all 0.5s ease;
+  font-size: calc(1rem + 0.5vw);
 }
 
 .service-button {
@@ -219,9 +236,6 @@ p {
   text-transform: lowercase;
   display: block;
   width: 150px;
-}
-.service-button:hover {
-  color: #fdb827;
 }
 
 #team {
@@ -358,6 +372,135 @@ p {
 #cta .cta-btn:hover::before {
   opacity: 1;
   left: 0;
+}
+
+.card {
+  border: 0;
+  margin-top: 2rem;
+}
+.card img {
+  border-radius: 0;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.blog-info {
+  display: flex;
+}
+.blog-info span {
+  display: block;
+  margin-right: 1rem;
+}
+
+.blog-link {
+  display: block;
+  margin-top: 1rem;
+  width: 100px;
+  color: #21209c;
+}
+.blog-link:hover {
+  color: #fdb827;
+}
+
+#contact {
+  background-color: #21209c;
+  padding: 10px 0px 20px 0px;
+}
+
+.f-logo {
+  text-align: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.f-logo h5 {
+  font-size: 24px;
+  color: #fff;
+  padding: 5px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.contact-media {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.contact-media .fab,
+.contact-media .fas {
+  color: #21209c;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.contact-media p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.b-right {
+  border-right: 2px solid rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 767px) {
+  .b-right {
+    border-right: 0;
+  }
+}
+
+.f-social-icon h6 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.f-social-icon {
+  text-align: center;
+}
+
+.f-social-icon .fab {
+  color: #21209c;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.f-social-icon .fab:hover {
+  color: #fff;
+  background-color: #fdb827;
+}
+
+footer {
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  color: #f1f1f1;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #23120b;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+footer a:hover {
+  color: #fdb827;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

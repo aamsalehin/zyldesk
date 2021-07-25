@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+a {
+  text-decoration: none;
+  color: $blueColor;
+}
 // custon buttons css
 h1,
 h2,
