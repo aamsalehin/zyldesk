@@ -1,12 +1,14 @@
 @use 'variables' as *;
 .custom-nav {
-  background-color: $lightBgColor;
-  height: 10vh !important;
+  height: 10vh;
 }
-
+.logo img {
+  height: 5vh;
+}
 .navbar.container {
   padding: 0;
 }
+
 .nav-link {
   color: $headingColor !important;
   &:hover {

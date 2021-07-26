@@ -43,8 +43,11 @@ p {
 }
 
 .custom-nav {
-  background-color: #f1f1f1;
-  height: 10vh !important;
+  height: 10vh;
+}
+
+.logo img {
+  height: 5vh;
 }
 
 .navbar.container {
@@ -406,20 +409,48 @@ p {
 
 #contact {
   background-color: #21209c;
-  padding: 10px 0px 20px 0px;
+  padding: 5rem 0rem;
 }
 
-.f-logo {
-  text-align: center;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+.footer-subscriber {
+  background-color: #23120b;
+  padding: 8rem 1rem;
+  margin-bottom: 5rem;
+  border-radius: 2rem;
+  box-shadow: 0px 2px 50px 0px rgba(253, 184, 39, 0.08);
+  display: flex;
+  justify-content: space-around;
 }
-
-.f-logo h5 {
-  font-size: 24px;
+@media (max-width: 991px) {
+  .footer-subscriber {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -20%;
+  }
+}
+.footer-subscriber h6 {
   color: #fff;
-  padding: 5px;
-  font-weight: 600;
-  text-transform: capitalize;
+  font-size: calc(1.5rem + 0.5vw);
+  padding-bottom: 2rem;
+}
+.footer-subscriber input {
+  padding: calc(0.25rem + 0.5vw);
+  border: 2px solid transparent;
+  border-radius: 2rem;
+}
+.footer-subscriber input:focus {
+  outline: 0;
+}
+.footer-subscriber .submit-button {
+  background-color: #21209c;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: all 0.5s ease;
+}
+.footer-subscriber .submit-button:hover {
+  background-color: #fdb827;
 }
 
 .contact-media {
@@ -433,9 +464,11 @@ p {
   height: 40px;
   width: 40px;
   background-color: #fff;
-  text-align: center;
-  line-height: 40px;
   border-radius: 50%;
+  margin: 0 auto 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-media p {
@@ -483,13 +516,13 @@ p {
 }
 
 footer {
-  border-top: 2px solid rgba(255, 255, 255, 0.5);
   color: #f1f1f1;
   text-align: center;
   padding: 20px 0px;
-  background-color: #23120b;
+  background-color: #21209c;
   font-weight: 400;
   font-size: 14px;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 footer a {
