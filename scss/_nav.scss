@@ -1,6 +1,9 @@
 @use 'variables' as *;
 .custom-nav {
   height: 10vh;
+  @media (max-width: 991.98px) {
+    height: auto;
+  }
 }
 .logo img {
   height: 5vh;
