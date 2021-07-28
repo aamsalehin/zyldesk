@@ -92,6 +92,17 @@
     window.addEventListener("load", headerScrolled);
     onscroll(document, headerScrolled);
   }
+  // navbar scrolled
+  let navbar = document.querySelector(".custom-nav");
+
+  const navScroll = () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add("bg-scroll");
+    } else {
+      navbar.classList.remove("bg-scroll");
+    }
+  };
+  window.addEventListener("scroll", navScroll);
 
   /**
    * Back to top button
