@@ -7,7 +7,7 @@
   position: relative;
   margin-bottom: 3rem;
   &:hover .service-icon {
-    background-color: $yellowColor;
+    color: $yellowColor;
   }
   &:hover .service-heading {
     color: $yellowColor;
@@ -24,15 +24,12 @@
   width: 100px;
   border-radius: 50%;
   margin: auto;
-  background-color: $blueColor;
-  color: #fff;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  transition: all 0.5s ease;
+  color: $blueColor;
+  transition: all 0.1s ease;
 }
 .service-heading {
   margin-bottom: 1rem;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   font-weight: 600;
   // font-size: calc(1rem + 0.5vw);
 }
