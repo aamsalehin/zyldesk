@@ -28,6 +28,9 @@
     color: $yellowColor !important;
   }
 }
+.nav-link.active {
+  color: $blueColor !important;
+}
 .bg-light {
   background-color: $lightBgColor !important;
 }
